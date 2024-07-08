@@ -20,16 +20,18 @@ CallStorm is a powerful call flooding tool designed for educational purposes. It
 
 ### Clone the Repository
 
-\`\`\`bash
-git clone https://github.com/your-username/CallStorm.git
+```bash
+git clone https://github.com/Suffix30/CallStorm.git
+```
+```
 cd CallStorm
-\`\`\`
+```
 
 ### Install Dependencies
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### Configuration
 
@@ -37,10 +39,10 @@ Before running the application, you need to configure the service credentials an
 
 ### Config_Files/config.py
 
-\`\`\`python
+```python
 voiceml = "URL_TO_YOUR_VOICEML_FILE"
 sourceNumbers = []
-\`\`\`
+```
 
 ### Usage
 
@@ -48,9 +50,9 @@ sourceNumbers = []
 
 Run the main script to launch the GUI.
 
-\`\`\`bash
+```bash
 python callstorm.py
-\`\`\`
+```
 
 #### Using the GUI
 
@@ -63,23 +65,23 @@ python callstorm.py
 
 ### Directory Structure
 
-\`\`\`
+```
 CallStorm/
-├── Call_Services/
-│   ├── nexmo_call.py
-│   ├── plivo_call.py
-│   ├── sinch_call.py
-│   └── twilio_call.py
-├── Config_Files/
-│   └── config.py
-├── Number_Generator/
-│   └── number_generator.py
-├── Source_Numbers/
-│   └── source_numbers.py
-├── callstorm.py
-├── requirements.txt
+│   ├── callstorm.py
+│   ├── requirements.txt
+│   ├── Call_Services/
+│   │   ├── nexmo_call.py
+│   │   ├── plivo_call.py
+│   │   ├── sinch_call.py
+│   │   ├── twilio_call.py
+│   ├── Config_Files/
+│   │   ├── config.py
+│   ├── Number_Generator/
+│   │   ├── number_generator.py
+│   ├── Source_Numbers/
+│   │   ├── source_numbers.pyt
 └── README.md
-\`\`\`
+```
 
 ## Contributing
 
