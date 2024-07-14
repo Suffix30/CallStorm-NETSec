@@ -2,8 +2,6 @@ import customtkinter as ctk
 import subprocess
 import random
 import tkinter.messagebox as messagebox
-
-# Update the import paths to match the new directory structure
 from Config_Files.config import voiceml
 from Source_Numbers.source_numbers import sourceNumbers
 
